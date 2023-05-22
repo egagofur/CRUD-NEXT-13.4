@@ -65,7 +65,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="fixed max-w-screen-xl p-2 -translate-x-1/2 md:mt-4 lg:rounded-full lg:pl-6 left-1/2">
+    <Navbar className="fixed z-10 max-w-screen-xl p-2 -translate-x-1/2 md:mt-4 lg:rounded-full lg:pl-6 left-1/2">
       <div className="relative flex items-center mx-auto text-blue-gray-900">
         <Typography
           as="a"
